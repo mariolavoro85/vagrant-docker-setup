@@ -9,6 +9,6 @@ print "\n >>> start vagrant..."
 vagrant up
 
 print "\n >>> provision with terraform..."
-terraform-0.12.18 apply -auto-approve
+terraform-0.12.18 init && terraform-0.12.18 apply -auto-approve
 
 print "\n <<< setup done!"
