@@ -1,0 +1,5 @@
+.vagrant
+.terraform
+volumes/*
+tfstate/*
+*.bak
