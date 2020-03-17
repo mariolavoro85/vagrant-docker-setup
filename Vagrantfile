@@ -26,5 +26,5 @@ Vagrant.configure('2') do |config|
   config.vm.provision 'shell', inline: '
     sudo systemctl daemon-reload &&
     sudo systemctl try-restart docker &&
-    sudo usermod -aG docker $USER', run: 'always'
+    sudo usermod -aG docker vagrant', run: 'always'
 end

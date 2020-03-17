@@ -3,7 +3,7 @@
 print "\n <<< setup start..."
 
 print "\n >>> make the main folder volumes"
-mkdir -p tfstate volumes/artifactory-oss/data volumes/oracle/data && ls -al
+mkdir -p tfstate volumes/artifactory/data volumes/oracle/data volumes/openldap/data && ls -al
 
 print "\n >>> start vagrant..."
 vagrant up
